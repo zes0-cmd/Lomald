@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You - Lomald</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #7268E6;
+            --secondary-color: #6879E6;
+            --background-color: #F8F9FA;
+            --card-background: #FFFFFF;
+            --text-color: #343A40;
+            --border-color: #E9ECEF;
+            --border-radius: 0.75rem;
+            --box-shadow: 0 8px 15px rgba(0, 0, 0, 0.05);
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 650px;
+            background-color: var(--card-background);
+            padding: 40px;
+            border-radius: var(--border-radius);
+            box-shadow: var(--box-shadow);
+            text-align: center;
+            border: 1px solid var(--border-color);
+        }
+
+        .icon {
+            font-size: 4rem;
+            color: var(--primary-color);
+            margin-bottom: 20px;
+        }
+
+        .thank-you-message {
+            font-weight: 700;
+            font-size: 2rem;
+            color: var(--text-color);
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        p {
+            font-size: 1rem;
+            line-height: 1.6;
+            color: #6C757D;
+            margin-top: 10px;
+            max-width: 500px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .footer {
+            margin-top: 40px;
+            font-size: 0.8rem;
+            color: #ADB5BD;
+            line-height: 1.5;
+        }
+
+        .home-link {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 12px 25px;
+            font-size: 1rem;
+            font-weight: 600;
+            color: white;
+            background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
+            border: none;
+            border-radius: 0.5rem;
+            text-decoration: none;
+            transition: transform 0.2s ease, box-shadow 0.3s ease;
+            box-shadow: 0 4px 10px rgba(114, 104, 230, 0.25);
+        }
+
+        .home-link:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(114, 104, 230, 0.35);
+        }
+
+        .home-link:active {
+            transform: translateY(0);
+            box-shadow: 0 4px 8px rgba(114, 104, 230, 0.2);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="icon">&#x2705;</div>
+        <div class="thank-you-message">Request Sent!</div>
+        <p>Thank you for your request. We have received your message and will reply as fast as we can.</p>
+        <p>You can expect to hear from us within 24-48 business hours.</p>
+        <a href="/" class="home-link">Go to Homepage</a>
+
+        <div class="footer">
+            &copy; 2025 Lomald. All rights reserved. <br> Frunza Vlad and Botezatu Ion
+        </div>
+    </div>
+
+</body>
+</html>
+
