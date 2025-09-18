@@ -23,13 +23,10 @@
             <p class="text-xl text-gray-600 mt-2">Professional Logo Design</p>
         </div>
 
-        <!-- Request Form Section -->
         <section class="mb-8">
             <h2 class="text-2xl font-semibold text-gray-700 mb-4">Request Your Custom Logo</h2>
-            <!-- The form action has been updated for Formspree -->
-            <form action="https://formspree.io/f/xrbawnan" method="POST" class="space-y-6">
-                <!-- Add this hidden input to redirect to your thankyou.html page -->
-                <input type="hidden" name="_next" value="https://yourwebsite.com/thankyou.html" />
+            <form action="YOUR_FORMSPREE_ENDPOINT_HERE" method="post" class="space-y-6">
+                <input type="hidden" name="_next" value="https://YOUR_GITHUB_PAGES_URL_HERE/thankyou.html" />
 
                 <div>
                     <label for="client_name" class="block text-sm font-medium text-gray-700">Your Name</label>
@@ -57,7 +54,6 @@
             </form>
         </section>
 
-        <!-- Pricing and Payment Section -->
         <section class="bg-indigo-100 p-6 rounded-lg shadow-inner">
             <h2 class="text-2xl font-bold text-indigo-800 mb-4">Pricing & Payments</h2>
             <p class="text-indigo-700 mb-4">
@@ -68,7 +64,6 @@
             </p>
             <p class="text-indigo-700 mb-2 font-semibold">Accepted Payment Methods:</p>
             <ul class="space-y-3 text-indigo-800 font-medium">
-                <!-- Cryptocurrency images added here -->
                 <li class="flex items-center space-x-2">
                     <img src="https://assets.coingecko.com/coins/images/1/small/bitcoin.png" alt="Bitcoin logo" class="w-6 h-6">
                     <span>Bitcoin</span>
@@ -91,4 +86,3 @@
 
 </body>
 </html>
-
