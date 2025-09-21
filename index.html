@@ -23,32 +23,30 @@
             <p class="text-xl text-gray-600 mt-2">Logo Designs</p>
         </div>
 
-        <!-- Request Form Section -->
         <section class="mb-8">
             <h2 class="text-2xl font-semibold text-gray-700 mb-4">Request Your Custom Logo</h2>
             <form action="https://formspree.io/f/xrbawnan" method="post" class="space-y-6">
-                <!-- This is the live GitHub Pages URL, not the repository URL -->
                 <input type="hidden" name="_next" value="https://zes0-cmd.github.io/Lomald/thankyou.html" />
 
                 <div>
                     <label for="client_name" class="block text-sm font-medium text-gray-700">Your Name</label>
                     <input type="text" id="client_name" name="Client Name" required
-                           class="mt-1 block w-full px-4 py-2 bg-gray-50 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm">
+                            class="mt-1 block w-full px-4 py-2 bg-gray-50 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm">
                 </div>
                 <div>
                     <label for="company_name" class="block text-sm font-medium text-gray-700">Company Name</label>
                     <input type="text" id="company_name" name="Company Name" required
-                           class="mt-1 block w-full px-4 py-2 bg-gray-50 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm">
+                            class="mt-1 block w-full px-4 py-2 bg-gray-50 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm">
                 </div>
                 <div>
                     <label for="contact_email" class="block text-sm font-medium text-gray-700">Contact Email</label>
                     <input type="email" id="contact_email" name="Contact Email" required
-                           class="mt-1 block w-full px-4 py-2 bg-gray-50 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm">
+                            class="mt-1 block w-full px-4 py-2 bg-gray-50 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm">
                 </div>
                 <div>
                     <label for="logo_description" class="block text-sm font-medium text-gray-700">Logo Description</label>
                     <textarea id="logo_description" name="Logo Description" rows="4" required
-                              class="mt-1 block w-full px-4 py-2 bg-gray-50 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"></textarea>
+                                  class="mt-1 block w-full px-4 py-2 bg-gray-50 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"></textarea>
                 </div>
                 <button type="submit" class="w-full bg-indigo-600 text-white font-semibold py-2 px-4 rounded-lg hover:bg-indigo-700 transition-colors duration-200">
                     Submit Request
@@ -56,7 +54,6 @@
             </form>
         </section>
 
-        <!-- Pricing and Payment Section -->
         <section class="bg-indigo-100 p-6 rounded-lg shadow-inner">
             <h2 class="text-2xl font-bold text-indigo-800 mb-4">Pricing & Payments</h2>
             <p class="text-indigo-700 mb-4">
@@ -67,7 +64,10 @@
             </p>
             <p class="text-indigo-700 mb-2 font-semibold">Accepted Payment Methods:</p>
             <ul class="space-y-3 text-indigo-800 font-medium">
-                <!-- Cryptocurrency images added here -->
+                <li class="flex items-center space-x-2">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/PayPal.svg" alt="PayPal logo" class="w-6 h-6">
+                    <span>PayPal</span>
+                </li>
                 <li class="flex items-center space-x-2">
                     <img src="https://assets.coingecko.com/coins/images/1/small/bitcoin.png" alt="Bitcoin logo" class="w-6 h-6">
                     <span>Bitcoin</span>
